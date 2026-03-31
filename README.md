@@ -1,4 +1,4 @@
-# 🎓 Elimu School Portal
+make this readme file look like website ,when you touch links it shows in same page,# 🎓 Elimu School Portal
 
 ## 📌 Overview
 
