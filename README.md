@@ -1,60 +1,100 @@
 # 🎓 Elimu School Portal
 
-## 📌 Overview
-
-**Elimu School Portal** is a web-based school management system designed to simplify and automate academic and administrative processes in schools.
-
-The system provides separate dashboards for **Admin, Teachers, and Students**, making school management efficient, organized, and user-friendly.
+<p align="center">
+  <b>A modern web-based School Management System for Admins, Teachers, and Students</b><br><br>
+  <img src="screen%20shots/hompage/home.png" width="800"/>
+</p>
 
 ---
 
-## 🚀 Features
+## 📌 Overview
+
+**Elimu School Portal** is a full-featured school management system designed to streamline academic and administrative operations.
+It provides role-based dashboards for **Administrators, Teachers, and Students**, ensuring efficiency, transparency, and ease of use.
+
+---
+
+## 🚀 Key Features
+
+### 👨‍💼 Admin Panel
+
+* Manage students and teachers
+* Create classes and academic terms
+* Assign subject combinations
+* Generate academic reports
+* Full system control
+
+---
+
+### 👩‍🏫 Teacher Panel
+
+* Manage student results
+* View assigned subjects
+* Access class lists
+* Track performance
+
+---
+
+### 🎓 Student Panel
+
+* View enrolled subjects
+* Check and download results
+* Update profile and password
+
+---
+
+## 🖼️ System Preview
+
+### 🏠 Homepage
+
+<p align="center">
+  <img src="screen%20shots/hompage/home.png" width="700"/>
+</p>
+
+---
 
 ### 👨‍💼 Admin Dashboard
 
-* Register students and teachers
-* Manage classes and academic terms
-* Manage subject combinations
-* Generate academic reports
-* System-wide control and configuration
+<p align="center">
+  <img src="screen%20shots/admin/admin%20dashboard.png" width="700"/>
+</p>
 
 ---
 
 ### 👩‍🏫 Teacher Dashboard
 
-* View assigned subjects
-* Manage student results
-* View student lists
-* Access school terms
-* Track academic performance
+<p align="center">
+  <img src="screen%20shots/teaches/teacher%20dashboard.png" width="700"/>
+</p>
 
 ---
 
 ### 🎓 Student Dashboard
 
-* View enrolled subjects
-* Check and download results
-* View profile details
-* Update password
+<p align="center">
+  <img src="screen%20shots/student/student%20dashboard.png" width="700"/>
+</p>
 
 ---
 
-## 🖥️ System Screenshots
+### 📊 Academic Management
 
-> Screenshots are available in the `screen shots/` folder in this repository.
+<p align="center">
+  <img src="screen%20shots/academics/academic%20dashboard.png" width="700"/>
+</p>
 
 ---
 
-## ⚙️ Installation & Setup (Using XAMPP)
+## ⚙️ Installation Guide (XAMPP)
 
 ### 🔧 Requirements
 
 * XAMPP
-* Web browser 
+* Web Browser
 
 ---
 
-### 📥 Steps
+### 📥 Setup Steps
 
 1. Clone the repository:
 
@@ -62,9 +102,9 @@ The system provides separate dashboards for **Admin, Teachers, and Students**, m
 git clone https://github.com/michaelmwangiwaweru/elimu-school-portal.git
 ```
 
-2. Move the project to:
+2. Move project to:
 
-```text
+```
 C:\xampp\htdocs\
 ```
 
@@ -76,25 +116,14 @@ C:\xampp\htdocs\
 4. Import Database:
 
 * Open **phpMyAdmin**
-* Create a database (e.g. 
-* Import the `.sql` file from the project
+* Create a database (e.g. `elimu_db`)
+* Import the provided `.sql` file
 
-5. Run the project:
+5. Run in browser:
 
-```text
+```
 http://localhost/elimu school portal
 ```
-
----
-
-## 🔐 Default Access 
-
-
-
-* Admin Login
-* Teacher Login
-* Student Login
-* academic Login
 
 ---
 
@@ -109,20 +138,34 @@ http://localhost/elimu school portal
 
 ## 📂 Project Structure
 
-```text
+```
 elimu-school-portal/
 │
 ├── admin/
 ├── academics/
 ├── student/
-├── teacher/
+├── teaches/
 ├── screen shots/
 └── ...
 ```
 
 ---
 
+## 🌟 Highlights
 
+* Role-based authentication system
+* Clean dashboard interfaces
+* Real-time academic management
+* Organized and scalable structure
+
+---
+
+## 🔮 Future Improvements
+
+* 🌐 Live deployment (online access)
+* 📱 Mobile responsiveness
+* 📧 Email notifications
+* 📊 Advanced analytics dashboard
 
 ---
 
@@ -131,12 +174,6 @@ elimu-school-portal/
 **Michael Mwangi Waweru**
 
 * GitHub: https://github.com/michaelmwangiwaweru
-
----
-
-## 📜 License
-
-This project is for educational and demonstration purposes.
 
 ---
 
@@ -149,3 +186,7 @@ If you like this project:
 * 📢 Share it
 
 ---
+
+## 📜 License
+
+This project is for educational and portfolio purposes.
